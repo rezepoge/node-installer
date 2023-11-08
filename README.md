@@ -31,7 +31,7 @@ a simple bash script for linux to install node-js
 
 -l installs the latest version.
 
-## exaples
+## examples
 install current lts version via .tar.xz. file and create symlinks
 ```inode -xs```
 
