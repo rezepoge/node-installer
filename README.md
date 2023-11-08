@@ -3,6 +3,7 @@ a simple bash script for linux to install node-js
 
 # usage
 ## install script to /opt and make it executeable via inode
+
 ```cd /opt && wget https://www.middelsoft.de/scripts/install_node.sh && chmod +x /opt/install_node.sh && ln -s /opt/install_node.sh /usr/bin/inode```
 
 ## options
@@ -29,3 +30,10 @@ a simple bash script for linux to install node-js
               /usr/bin/npx
 
 -l installs the latest version.
+
+## exaples
+install current lts version via .tar.xz. file and create symlinks
+```inode -xs```
+
+install version 18.10.0 with custom install path and without creating symlinks
+```inode -v v18.10.0 -i /usr/include/node_18```
