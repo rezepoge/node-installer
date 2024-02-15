@@ -4,7 +4,7 @@ a simple bash script for linux to install node-js
 # usage
 ## install script to /opt and make it executeable via inode
 
-```cd /opt && wget https://www.middelsoft.de/scripts/install_node.sh && chmod +x /opt/install_node.sh && ln -s /opt/install_node.sh /usr/bin/inode```
+```cd /opt && wget https://raw.githubusercontent.com/rezepoge/node-installer/main/install_node.sh && chmod +x /opt/install_node.sh && ln -s /opt/install_node.sh /usr/bin/inode```
 
 ## options
 
