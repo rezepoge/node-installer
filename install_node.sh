@@ -11,7 +11,7 @@ NC='\033[0m' # No Color
 # Variables
 ALGO="gz"
 VERSION_INFO=$(curl -s https://nodejs.org/dist/index.tab)
-VERSION=$(echo "$VERSION_INFO" | grep Iron | grep -Po "v[0-9.]{3,}")
+VERSION=$(echo "$VERSION_INFO" | grep Iron | head -n 1 | grep -Po "v[0-9.]{3,}")
 INSTALL_DIR="/usr/include/node"
 BINARY_DIR="/usr/bin"
 CREATE_SYMLINKS=0
